@@ -1,0 +1,13 @@
+{
+  "name": "strapinuxtvercel",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "concurrently \"cd frontend && npm run dev\" \"cd backend && npm run start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
