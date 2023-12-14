@@ -8,7 +8,7 @@
         {{ msg }}
         <hr>
         <pre>
-            {{ findOne }} hola qtal
+            {{ findOne }} hola qtal add build
         </pre>
     </div>
 </template>
