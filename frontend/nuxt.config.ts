@@ -6,4 +6,7 @@ export default defineNuxtConfig({
   strapi: {
     url: 'http://localhost:1337'
   },
+  typescript: {
+    strict: false
+  }
 })
