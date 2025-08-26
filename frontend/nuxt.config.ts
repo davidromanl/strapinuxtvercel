@@ -8,6 +8,10 @@ export default defineNuxtConfig({
   },
   typescript: {
     strict: false,
-    tsConfig: true
+    tsConfig: {
+      compilerOptions: {
+        noImplicitThis: false
+      }
+    }
   }
 })
