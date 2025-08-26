@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     url: 'http://localhost:1337'
   },
   typescript: {
-    strict: false
+    strict: false,
+    tsConfig: true
   }
 })
