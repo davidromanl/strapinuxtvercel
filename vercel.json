@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production",
+    "NODE_OPTIONS": "--max-old-space-size=4096",
+    "NPM_CONFIG_REGISTRY": "https://registry.npmjs.org/",
+    "STRAPI_TELEMETRY_DISABLED": "true",
+    "ADMIN_PATH": "/admin",
+    "STRAPI_ADMIN_BACKEND_URL": "https://strapinuxtvercel.vercel.app"
+  },
+  "build": {
+    "env": {
+      "NODE_OPTIONS": "--max-old-space-size=4096",
+      "NPM_CONFIG_REGISTRY": "https://registry.npmjs.org/"
+    }
+  }
+}
